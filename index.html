@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo Manager</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Task Manager</h1>
+    <p class="subtitle">Stay Organized and Productive</p>
+    <div class="container">
+      <div class="to-do-container">
+        <div class="header">
+          <span class="dot-orange"></span>
+          <h3>Todo Tasks</h3>
+        </div>
+        <form id="inputtext">
+          <input
+            type="text"
+            id="text-bar"
+            placeholder="Add a new task..."
+            class="textbar"
+          />
+          <button type="submit" class="addbtn">+</button>
+        </form>
+        <ul id="tasklist"></ul>
+      </div>
+
+      <div class="complete-task">
+        <h3>Complete Tasks</h3>
+        <ul id="completed-tasklist"></ul> 
+      </div>
+    </div>
+   
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
